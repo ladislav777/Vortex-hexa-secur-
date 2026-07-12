@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.vortex.hexa" version="2.1.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>VortexHexa</name>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+</widget>

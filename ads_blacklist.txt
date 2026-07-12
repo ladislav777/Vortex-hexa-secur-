@@ -1,0 +1,42 @@
+# Vortex & Hexa - Reklamný blacklist
+# Pridajte nové reklamné domény podľa potreby
+# Formát: jedna doména na riadok
+
+# YouTube a Google reklamy
+googleads.g.doubleclick.net
+youtube.com/ads
+youtube.com/get_midroll_
+youtube.com/pagead
+google.com/ads
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+admob.com
+adservice.google.com
+
+# Iné reklamné siete
+pubmatic.com
+rubiconproject.com
+openx.net
+indexexchange.com
+amazon-adsystem.com
+adform.net
+criteo.com
+outbrain.com
+taboola.com
+media.net
+infolinks.com
+monetag.com
+propellerads.com
+adsterra.com
+exoclick.com
+dynad.top
+onclick.top
+ontarget.com
+serving-sys.com
+advertising.com
+adnxs.com
+scorecardresearch.com
+quantserve.com
+chartbeat.com
+newrelic.com
