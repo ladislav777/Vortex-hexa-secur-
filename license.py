@@ -20,6 +20,7 @@ class LicenseManager:
         
     def generate_hwid(self) -> str:
         """Generuje jedinečné HWID"""
+        # Tu by mala byť reálna logika, táto je len ilustračná
         return "example-hwid-12345"
     
     def self_destruct(self) -> None:
@@ -27,9 +28,11 @@ class LicenseManager:
         temp_dir = tempfile.gettempdir()
         vortex_temp = os.path.join(temp_dir, "vortex_hexa")
         
+        # Odstránenie dočasného priečinka
         if os.path.exists(vortex_temp):
             shutil.rmtree(vortex_temp)
         
+        # Odstránenie logovacieho súboru
         log_file = "vortex_hexa.log"
         if os.path.exists(log_file):
             os.remove(log_file)
@@ -39,6 +42,6 @@ class LicenseManager:
 def check_license() -> bool:
     """Hlavná funkcia pre kontrolu licencie"""
     lm = LicenseManager()
+    # Tu budeš neskôr volať metódu pre validáciu
     print(f"{lm.SECURITY_HEADER} | Kontrola prebehla.")
     return True
-    
